@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Social links profile</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+  </style>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            "gray-900": '#141414',
+            "gray-800": '#1F1F1F',
+            "gray-700": '#333333',
+            green: "#C4F82A"
+          }
+        }
+      }
+    }
+  </script>
+
+</head>
+
+<body class="font-[Inter] bg-gray-900">
+  <div class="absolute top-1/2 left-1/2 translate-y-[-50%] translate-x-[-50%]">
+    <div class="w-96 h-[611px] bg-gray-800 text-white">
+      <div class="grid grid-cols-1 gap-6 place-content-stretch place-items-center py-10">
+        <img class="w-[88px] h-[88px] rounded-full" src="./assets/images/avatar-jessica.jpeg" />
+        <div class="grid gap-1 place-items-center ">
+          <h1 class="font-semibold text-2xl ">Jessica Randall</h1>
+          <h2 class="font-bold text-sm text-green">London, United Kingdom</h2>
+        </div>
+        <div class="text-[14px]">
+          "Front-end developer and avid reader."
+        </div>
+        <div class="w-[304px] grid gap-4 justify-items-stretch">
+          <a href="https://github.com/">
+            <div
+              class="h-[45px] bg-gray-700 text-center rounded-lg content-center text-sm font-bold hover:bg-green hover:text-gray-700">
+
+              GitHub </div>
+          </a>
+          <a href="https://www.frontendmentor.io">
+            <div
+              class="h-[45px] bg-gray-700 text-center rounded-lg content-center text-sm font-bold hover:bg-green hover:text-gray-700">
+              Frontend Mentor
+            </div>
+          </a>
+
+          <a href="https://www.linkedin.com" />
+          <div
+            class="h-[45px] bg-gray-700 text-center rounded-lg content-center text-sm font-bold hover:bg-green hover:text-gray-700">
+            LinkedIn </div>
+          </a>
+
+          <a href="https://www.x.com" />
+          <div
+            class="h-[45px] bg-gray-700 text-center rounded-lg content-center text-sm font-bold hover:bg-green hover:text-gray-700">
+            Twitter </div>
+          </a>
+          <a href="https://www.instagram.com/" <div
+            class="h-[45px] bg-gray-700 text-center rounded-lg content-center text-sm font-bold hover:bg-green hover:text-gray-700">
+            Instagram
+        </div>
+      </div>
+      </a>
+    </div>
+  </div>
+  </div>
+
+  <div class="attribution text-white">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Wildchild</a>.
+  </div>
+</body>
+
+</html>
